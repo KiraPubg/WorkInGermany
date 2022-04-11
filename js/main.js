@@ -3,7 +3,7 @@ $(document).ready(function () {
 		arrows: false,
 		responsive: [
 			{
-				breakpoint: 768,
+				breakpoint: 992,
 				settings: "slick"
 			},
 			{
