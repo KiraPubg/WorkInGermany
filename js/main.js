@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 	$(".specialization__slider").slick({
 		arrows: false,
@@ -13,7 +14,6 @@ $(document).ready(function () {
 		]
 	})
 })
-
 
 const body = document.querySelector("body"),
 	open = document.querySelector(".toggle"),
