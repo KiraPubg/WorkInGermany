@@ -30,7 +30,8 @@ const body = document.querySelector("body"),
 			burgerOpen = document.querySelector(".bx-menu"),
 			menu = document.querySelector(".header__nav"),
 			menuItem = document.querySelectorAll(".header__nav-link"),
-			header = document.querySelector(".header");
+			header = document.querySelector(".header"),
+			emptySlide = document.querySelectorAll(".specialization__empty-card");
 		const pageWidth = document.documentElement.scrollWidth;
 
 		if (pageWidth > 768) {
@@ -38,6 +39,11 @@ const body = document.querySelector("body"),
 			close.classList.remove("close")
 			menu.classList.remove("active")
 			burgerOpen.classList.add("open");
+		}
+		if (pageWidth < 993) {
+			emptySlide.forEach(slideEmpty => {
+				slideEmpty.remove()
+			})
 		}
 		if (pageWidth <= 992) {
 			body.classList.remove("no-skroll")
@@ -51,6 +57,7 @@ const body = document.querySelector("body"),
 					body.classList.remove("no-skroll")
 					header.classList.remove("header__menu-active")
 				})
+
 			})
 		}
 	});
