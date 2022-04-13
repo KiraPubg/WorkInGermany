@@ -17,8 +17,9 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
-  background: #ffffff;
+  background: #ffffff !important;
   font-family: "Inter", sans-serif;
   font-size: 18px;
 }
@@ -138,6 +139,7 @@ body.no-skroll {
 
 .header {
   height: 104px;
+  background: #fff !important;
 }
 
 .header .container {
@@ -475,6 +477,7 @@ body.no-skroll {
   background: #65AECF;
   transition: background 0.3s ease-in-out;
 }
+
 
 .specialization__card:hover {
   background: #3e9ac3;
