@@ -1388,8 +1388,9 @@ body.no-skroll {
   }
 }
 
-@media (max-width: 767.98px) {
 
+
+@media (max-width: 767.98px) {
   .input__block textarea, .input__block input {
     max-width: 100%;
   }
